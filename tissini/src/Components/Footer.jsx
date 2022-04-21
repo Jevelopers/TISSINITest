@@ -73,7 +73,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className={stylesFooter.copyright}>
-            <FontAwesomeIcon className= {stylesFooter.item} icon={faCopyright} /><p className={stylesFooter.info__text}>2021 TISSINI. Todos los derechos reservados. | Políticas de privacidad | Términos y condiciones | Uso de cookies</p>
+            <FontAwesomeIcon className= {stylesFooter.item} icon={faCopyright} /><p className={stylesFooter.info__text}>2022 Jevelopers. Todos los derechos reservados a Jevelopers para TISSINI. | Políticas de privacidad | Términos y condiciones | Uso de cookies</p>
 
             </div>
         </Fragment>

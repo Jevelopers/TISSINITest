@@ -3,5 +3,9 @@
 }
 .input {
     background: transparent;
+    width: 50vh;
+    height: 5vh;
+    border-radius: 5vh;
     border: .5vh solid var(--color-white);
+    outline: none;
 }

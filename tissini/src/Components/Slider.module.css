@@ -9,13 +9,15 @@
 .content {
     display: flex;
     flex-direction: column;
-    padding: 5vh 20vh 5vh 20vh;
+    justify-content: center;
+    padding: 20vh 20vh 5vh 20vh;
 }
 
 .content__title {
     font-family: var(--font-primary);
     font-size: 6rem;
     color: var(--color-primary);
+    text-shadow: .1vh .1vh 0 var(--color-white);
 }
 
 
@@ -31,8 +33,9 @@
 .content__text::before {
     content: '';
     display: inline-block;
-    width: 5vh;
-    height: .4vh;
+    width: 10vh;
+    height: .1vh;
     background-color: var(--color-white);
     margin-right: 1vh;
 }
+

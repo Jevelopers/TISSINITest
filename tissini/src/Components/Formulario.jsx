@@ -5,7 +5,9 @@ export default function Formulario() {
   return (
     <div className= {stylesFormulario.container}>
         <form>
-          <input type="text" className= {stylesFormulario.input} placeholder='ododosd' />
+            <div className= {stylesFormulario.group}></div>
+          <input type="text" className= {stylesFormulario.input}  placeholder='ododosd' required />
+          <label htmlFor=""></label>
       </form>
     </div>
   )
