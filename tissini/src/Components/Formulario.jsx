@@ -7,7 +7,6 @@ export default function Formulario() {
         <form>
             <div className= {stylesFormulario.group}></div>
           <input type="text" className= {stylesFormulario.input}  placeholder='ododosd' required />
-          <label htmlFor=""></label>
       </form>
     </div>
   )

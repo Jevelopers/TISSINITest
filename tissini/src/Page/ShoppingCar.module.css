@@ -1,6 +1,50 @@
 .header {
-    text-align: center;
-    height: 20vh;
-    background: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5vh 0 2vh 0;
+}
 
+.icon {
+    color: var(--color-primary);
+    font-size: 4vh;
+}
+
+.header__text {
+    font-family: var(--font-text);
+    letter-spacing: .1vh;
+}
+
+.header__text span {
+    color: var(--color-primary);
+    font-weight: 900;
+}
+
+.main {
+    margin: 20vh; 
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content__icon {
+    font-size: 10vh;
+    color: var(--color-text);
+    filter: drop-shadow(.5vh .5vh .5vh var(--color-text));
+}
+
+.content__title {
+    font-family: var(--font-primary);
+    color: var(--color-primary);
+}
+
+.content__text {
+    font-family: var(--font-text);
+    font-size: 1rem;
+    color: var(--color-text);
 }

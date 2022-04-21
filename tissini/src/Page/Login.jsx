@@ -3,7 +3,6 @@ import stylesLogin from '../Page/Login.module.css'
 import stylesFooter from '../Components/Footer.module.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCopyright } from '@fortawesome/free-solid-svg-icons'
-
 import logotipoOficiaL from '../Image/logotipoTISSINIBlanco.png'
 import Formulario from '../Components/Formulario'
 import { Link } from 'react-router-dom'
