@@ -18,13 +18,13 @@
 }
 
 .info__title {
-    font-family: var(--font-family-primary);
+    font-family: var(--font-primary);
     font-size: 1.2rem;
     color: var(--color-primary);
 }
 
 .info__text {
-    font-family: var(--font-family-text);
+    font-family: var(--font-text);
     font-size: .8rem;
     font-weight: 100;
     color: var(--color-white);
@@ -40,6 +40,10 @@
     color: var(--color-secondary);
 }
 
+.mSocial {
+    margin: 2vh 2vh 2vh 0;
+}
+
 .mSocial__item {
     display: flex;
 }
@@ -49,17 +53,20 @@
 }
 
 .item {
+    display: flex;
+    color: var(--color-white);
+    padding: .5vh;
     margin-right: 1vh;
-    width: 5vh;
-    height: 5vh;
-    background: transparent;
-    border: .4vh solid var(--color-white);
-    border-radius: 50%;
+    font-size: 3vh;
+    border: .3vh solid var(--color-white);
+    border-radius: 50vh;
 }
 
 .item:hover {
     cursor: pointer;
     background: var(--color-white);
+    color: var(--color-primary);
+
 }
 
 .brand__image {

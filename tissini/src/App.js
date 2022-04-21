@@ -17,8 +17,8 @@ function App() {
       <Routes>
         <Route path='*' element={<Error404 />} />
         <Route path='/' element={<Index />} />
-        <Route path='/Somos' element={<ShoppingCar />} />
-        <Route path='/Somos' element={<Login />} />
+        <Route path='/ShoppingCar' element={<ShoppingCar />} />
+        <Route path='/login' element={<Login />} />
       </Routes>
       <Footer />
     </div>

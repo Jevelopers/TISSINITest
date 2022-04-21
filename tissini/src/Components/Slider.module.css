@@ -5,3 +5,34 @@
     background-size: cover;
     min-height: 80vh;
 }
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 5vh 20vh 5vh 20vh;
+}
+
+.content__title {
+    font-family: var(--font-primary);
+    font-size: 6rem;
+    color: var(--color-primary);
+}
+
+
+.content__text {
+    font-family: var(--font-text);
+    font-size: 1rem;
+    color: var(--color-white);
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: .4vh;
+}
+
+.content__text::before {
+    content: '';
+    display: inline-block;
+    width: 5vh;
+    height: .4vh;
+    background-color: var(--color-white);
+    margin-right: 1vh;
+}

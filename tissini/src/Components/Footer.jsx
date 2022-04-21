@@ -2,6 +2,10 @@ import React, { Fragment } from 'react'
 import stylesFooter from '../Components/Footer.module.css'
 import stylesButton from '../Components/Button.module.css'
 import logotipoOficial from '../Image/logotipoTISSINIBlanco.png'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPhone,faMessage,faAt, faCopyright } from '@fortawesome/free-solid-svg-icons'
+
+
 
 export default function Footer() {
     return (
@@ -20,13 +24,11 @@ export default function Footer() {
                             <div className={stylesFooter.info}>
                                 <h2 className={stylesFooter.info__title}>SÍGUENOS</h2>
                                 <p className={stylesFooter.info__text}>Descubre nuestras redes sociales y todo el contenido interesante creado para ti.</p>
-                                <div className={stylesFooter.info}>
+                                <div className={stylesFooter.mSocial}>
                                     <ul className={stylesFooter.mSocial__item}>
-                                        <li className={stylesFooter.item}></li>
-                                        <li className={stylesFooter.item}></li>
-                                        <li className={stylesFooter.item}></li>
-                                        <li className={stylesFooter.item}></li>
-                                        <li className={stylesFooter.item}></li>
+                                        <FontAwesomeIcon className= {stylesFooter.item} icon={faPhone} />
+                                        <FontAwesomeIcon className= {stylesFooter.item} icon={faMessage} />
+                                        <FontAwesomeIcon className= {stylesFooter.item} icon={faAt} />
                                     </ul>
                                 </div>
                             </div>
@@ -71,7 +73,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className={stylesFooter.copyright}>
-                <p className={stylesFooter.info__text}>2021 TISSINI. Todos los derechos reservados. | Políticas de privacidad | Términos y condiciones | Uso de cookies</p>
+            <FontAwesomeIcon className= {stylesFooter.item} icon={faCopyright} /><p className={stylesFooter.info__text}>2021 TISSINI. Todos los derechos reservados. | Políticas de privacidad | Términos y condiciones | Uso de cookies</p>
 
             </div>
         </Fragment>

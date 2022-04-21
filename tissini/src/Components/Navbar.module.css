@@ -5,7 +5,7 @@
     filter: drop-shadow(0 1vh 0 var(--color-text));
     justify-content: center;
     align-items: center;
-    padding: 2vh 10vh 2vh 10vh;
+    padding: 2vh 20vh 2vh 20vh;
 }
 
 .brand__image {
@@ -25,7 +25,7 @@
     padding-right: 1.5vh;
     font-size: .9rem;
     color: #fff;
-    font-family: var(--font-family-primary);
+    font-family: var(--font-primary);
     font-weight: 900;
     text-transform: uppercase;
 }
@@ -39,3 +39,19 @@
     justify-content: flex-end;
     align-items: center;
 }
+
+.nav__span {
+    margin-left: 5vh;
+}
+
+.icon {
+    color: var(--color-white);
+    margin-right: 2vh;
+}
+
+.icon:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
