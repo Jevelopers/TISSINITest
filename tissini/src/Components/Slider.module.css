@@ -1,6 +1,7 @@
 .container {
     background: fixed no-repeat top;
     background-image: url(../Image/ElementoBackground1.png);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0 90%);
     background-size: cover;
     min-height: 80vh;
 }

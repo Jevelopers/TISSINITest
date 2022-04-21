@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@100;300;900&family=Roboto:wght@100;400&family=Square+Peg&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+Variables globales
+*/
+
+:root {
+    /*Fuentes*/
+    --font-primary: 'Montserrat', sans-serif;
+    --font-secundary: 'Lobster', cursive;
+    --font-accent: 'Square Peg', cursive;
+    --font-text: 'Roboto', sans-serif;
+
+    /*Colores*/
+    --color-primary:#ff458e;
+    --color-secondary:#1d6689;
+    --color-accent:#EED7CE;
+    --color-text:#5d5d5d;
+    --color-white:#fff;
+    --color-black:#000;
+
+}

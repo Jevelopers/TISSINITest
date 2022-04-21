@@ -2,11 +2,10 @@
     display: grid;
     grid-template-columns: 30vh 1fr;
     background: var(--color-primary);
-    filter: drop-shadow(0 1vh .5vh var(--color-text));
+    filter: drop-shadow(0 1vh 0 var(--color-text));
     justify-content: center;
     align-items: center;
     padding: 2vh 10vh 2vh 10vh;
-    
 }
 
 .brand__image {
@@ -16,5 +15,27 @@
 .brand__image:hover {
     cursor: pointer;
     transform: scale(1.1);
+}
 
+.item {
+    text-decoration: none;
+}
+
+.item {
+    padding-right: 1.5vh;
+    font-size: .9rem;
+    color: #fff;
+    font-family: var(--font-family-primary);
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.item:hover {
+    color: var(--color-secondary);
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
