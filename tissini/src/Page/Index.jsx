@@ -25,7 +25,6 @@ function Index() {
               <p className={stylesIndex.info__text}> Somos la compañía que apoya a las Mujeres Latinas en los Estados Unidos a alcanzar sus sueños.</p>
               <button className={stylesButton.button__ghost}>Saber más</button>
               <button className={stylesButton.button__especial}>Ver catálogo</button>
-
             </div>
           </div>
         </div>

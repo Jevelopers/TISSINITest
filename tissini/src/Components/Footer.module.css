@@ -85,8 +85,14 @@
     background: var(--color-primary);
     padding: 2vh;
 }
+.copyright__especial {
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+    padding: 2vh 10vh 2vh 10vh;
+}
 
 .copyringht__text {
     color: var(--color-white);
-
 }
+

@@ -1,20 +1,22 @@
 .container {
     display: grid;
     grid-template-columns: 80vh 1fr;
-    background: var(--color-primary);
+    grid-area: 'formulario',
+        'image';
 }
-
-.container__image {
-    background-image: url(../Image/ElementoBackground3.jpg);
-    background-size: cover;
-    min-height: 100vh;
-}
-
 .content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: var(--color-primary);
+    padding: 0 10vh 0 10vh;
+}
+
+.image {
+    background-image: url(../Image/ElementoBackground3.jpg);
+    background-size: cover;
+    min-height: 100vh;
 }
 
 .brand {
@@ -33,5 +35,4 @@
 .brand__text {
     font-family: var(--font-text);
     color: var(--color-white);
-
 }
