@@ -1,0 +1,7 @@
+.container {
+    margin: 5vh 0 5vh 0;
+}
+.input {
+    background: transparent;
+    border: .5vh solid var(--color-white);
+}

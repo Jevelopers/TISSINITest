@@ -1,7 +1,13 @@
-import React from 'react'
+import React, { Fragment } from 'react'
+import Navbar from '../Components/Navbar'
+import Footer from '../Components/Footer'
 
 export default function ShoppingCar() {
   return (
-    <div>ShoppingCar</div>
+    <Fragment>
+      <Navbar />
+      <div>ShoppingCar</div>
+      <Footer />
+    </Fragment>
   )
 }
