@@ -1,0 +1,6 @@
+.container {
+    background: fixed no-repeat top;
+    background-image: url(../Image/ElementoBackground1.png);
+    background-size: cover;
+    min-height: 80vh;
+}
