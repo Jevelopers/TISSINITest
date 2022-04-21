@@ -1,5 +1,7 @@
-import React from 'react'
-import styleFooter from '../Components'
+import React, { Fragment } from 'react'
+import stylesFooter from '../Components/Footer.module.css'
+import stylesButton from '../Components/Button.module.css'
+import logotipoOficial from '../Image/logotipoTISSINIBlanco.png'
 
 export default function Footer() {
     return (
@@ -73,6 +75,5 @@ export default function Footer() {
 
             </div>
         </Fragment>
-
     )
 }
